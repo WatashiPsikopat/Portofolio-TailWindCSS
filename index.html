@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Afakah Iya?</title>
+    <link
+      rel="stylesheet"
+      href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"
+    />
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div
+          class="off-canvas position-left reveal-for-large"
+          id="my-info"
+          data-off-canvas
+          data-position="left"
+        >
+          <div class="row column">
+            <br />
+            <img class="thumbnail" src="chibi.jpg" />
+            <h5 class="font-bold">GWS</h5>
+            <p>
+              Hai, saya Muhammad Hanif Prasetyo, atau biasa dipanggil Hanif.
+              Saya lahir di Blitar 28 April 2008, saya sekarang sekolah di MTSN
+              8 Blitar, hobi saya adalah programming kadang juga main game, tapi
+              sekarang jarang main game ya karena bosan pensiun coy mending
+              ngoding, gak tau juga sih apa manfaatnya cuma pengen nyoba aja,
+            </p>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button
+                class="menu-icon"
+                type="button"
+                data-open="my-info"
+              ></button>
+              <span class="title-bar-title">Muhammad Hanif Prasetyo</span>
+            </div>
+          </div>
+          <div class="callout primary">
+            <div class="row column">
+              <h1></h1>
+              <p>
+                Ini adalah portfolio yang sangat sederhana, web ini dibuat
+                dengan HTML, JavaScript dan Foundation (framework CSS)
+              </p>
+              <h1><span class="typed"></span></h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="medium-6 columns">
+              <h3>Contact Me</h3>
+              <p>
+                masih nggak bisa dipake karena belum belajar bahasa pemrograman
+                PHP. CSS JavaScript aja masih agak bingung apalagi PHP.
+              </p>
+              <ul class="menu">
+                <li>
+                  <a href="https://www.github.com/WatashiPsikopat">Github</a>
+                </li>
+                <li><a href="https://wa.me/6283834416937">Whatsapp</a></li>
+              </ul>
+            </div>
+            <div class="medium-6 columns">
+              <label
+                >Name
+                <input type="text" placeholder="Name" />
+              </label>
+              <label
+                >Email
+                <input type="text" placeholder="Email" />
+              </label>
+              <label>
+                Message
+                <textarea placeholder="Message"></textarea>
+              </label>
+              <input type="submit" class="button expanded" value="Submit" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: [
+          "Masih Pemula Maseh",
+          "Always Calm",
+          "Do Not Panic",
+          "Stay Safe",
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/cc4c80b63a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

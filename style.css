@@ -1,0 +1,7 @@
+.font-bold {
+  font-weight: bold;
+}
+.typed {
+  transition-timing-function: ease-in-out;
+  font-weight: bold;
+}
